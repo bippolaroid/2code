@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/2code.dir/src/main.cpp.o -o 2code

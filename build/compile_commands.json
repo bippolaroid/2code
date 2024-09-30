@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/run/media/bippy/Locker/Projects/2code/build",
+  "command": "/usr/bin/clang++   -g -o CMakeFiles/2code.dir/src/main.cpp.o -c /run/media/bippy/Locker/Projects/2code/src/main.cpp",
+  "file": "/run/media/bippy/Locker/Projects/2code/src/main.cpp",
+  "output": "CMakeFiles/2code.dir/src/main.cpp.o"
+}
+]

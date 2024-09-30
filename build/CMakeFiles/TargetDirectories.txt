@@ -1,0 +1,3 @@
+/run/media/bippy/Locker/Projects/2code/build/CMakeFiles/2code.dir
+/run/media/bippy/Locker/Projects/2code/build/CMakeFiles/edit_cache.dir
+/run/media/bippy/Locker/Projects/2code/build/CMakeFiles/rebuild_cache.dir
