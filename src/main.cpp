@@ -24,13 +24,18 @@ const std::vector<std::string> ignoredFolders = {
 
 const std::vector<std::string> ignoredFiles = {
     "CMakeCXXCompilerId.cpp",
+    "CMakeCCompilerId.c",
+    "compiler_depend.ts"
 };
 
-// Array of allowed file extensions to show (e.g., ".cpp", ".h", etc.)
 const std::vector<std::string> allowedExtensions = {
-    ".cpp",
-    ".h",
+    ".cpp", ".c", ".cxx", ".cc", ".C",  // C++ Source files
+    ".h", ".hpp", ".hxx", ".hh", ".inl", ".tpp", // Header files
+    ".ipp",  // Implementation
+    ".js", ".mjs", ".cjs", // JavaScript
+    ".ts", ".tsx"  // TypeScript (if needed)
 };
+
 
 // Function to check if a folder should be ignored
 bool shouldIgnoreFolder(const fs::path &folder) {
